@@ -1,95 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
-    
-    <title>Play & Coffee</title>
-   <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!--link cdn swiper-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-   
-
-
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <!--header start-->
-    
-    <header class="header">
+  
 
-        <a href="#" class="logo">
-            <img src="images/logo.png" alt="">
-        </a>       
-        <div class="icons">
-            <div class="fab fa-facebook-f"></div>
-            <div class="fab fa-instagram"></div>
-            
-        </div>
+  <header class="header">
 
-    </header>
-    <!--header end-->
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
 
 
-    <!--Home slider start--->
-    <section class="home" id="home">
+    <div class="icons">
+        <div class="fab fa-facebook-f"></div>
+        <div class="fab fa-instagram"></div>      
+    </div>
 
-        <div class="swiper-container home-slider">
-    
-            <div class="swiper-wrapper wrapper">
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Play Coffee</span>
-                        
-                        <p>Hace tu pedido para llevar</p>
-                    </div>
-                    <div class="image">
-                        <img src="images/home-img-1.png" alt="">
-                    </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Play Coffee</span>
-                        
-                        <p>Hace tu pedido para llevar</p>        
-                    </div>
-                   
-                    <div class="image">
-                        <img src="images/home-img-2.png" alt="">
-                    </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Play Coffee</span>                        
-                        <p>Hace tu pedido para llevar</p>
-                    </div>
-                    <div class="image">
-                        <img src="images/home-img-3.png" alt="">
-                    </div>
-                </div>
-    
+  </header>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/images/img1.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/images/img2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/images/img3.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="/images/img4.jpg" />
+      </div>
+    </div>
+    <!-- <div class="swiper-button-next"></div> -->
+    <!-- <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-pagination"></div> -->
+  
+  
+  
+    <button class="button"><a href="/menu.html">Nuestra carta</a></button>
+  </div>
+  
+  
+
+
+  <section class="products" id="products">
+
+    <h1 class="heading"> Alquilar <span>Inflables</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <!-- <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div> -->
+            <div class="image">
+                <img src="images/inflable1.jpeg" alt="">
             </div>
-
-            <a href="https://www.youtube.com/watch?v=K-H1IQO_33c" class="btn">nuestra carta</a>
-
-    
-            <!-- <div class="swiper-pagination"></div> -->
-    
+            <div class="content">
+                <h3>Castillo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <!-- <div class="price">$15.99 <span>$20.99</span></div> -->
+            </div>
         </div>
-    
-    </section>
-    <!--Home slider end--->
-    
+
+        <div class="box">
+            <!-- <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div> -->
+            <div class="image">
+                <img src="images/inflable2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Castillo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <!-- <div class="price"><span>$20.99</span></div> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/inflable3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Castillo magico</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <!-- <div class="price">$15.99 <span>$20.99</span></div> -->
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/script/script.js"></script>
+<section class="contact" id="contact">
+
+  <h1 class="heading"> <span>Estamos </span> en </h1>
+
+  <div class="row">
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.5053724775084!2d-71.30582628494669!3d-42.904381579154105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961dad603b9bc92f%3A0xb3a872627542bf66!2sPlay%20Coffee!5e0!3m2!1ses-419!2sar!4v1647810078936!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+</section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="/script/script.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,96 @@
+* {
+    background: #13131a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.section-header {
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Titles */
+
+
+
+.text-primary {
+    font-family: 'Merriweather', serif;
+    padding: 20px 50px;
+    font-size: 16px;
+    text-align: center;
+} 
+
+
+
+/* Misc */
+hr {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+/* Wrappers(Flex) */
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-wrapper {
+    padding: 15px;
+}
+
+
+/* Menu Items */
+.menu-item--container {
+    margin: 10px;
+    display: flex;
+    height: 60px;
+    border-bottom: 1px dashed #fff;
+    font-family: 'Merriweather', serif;
+}
+
+.menu-item {
+    padding: 5px;
+    width: 85%;
+}
+
+.menu-item--price {
+    font-size: 12px;
+    text-align: center;
+    width: 15%;
+}
+
+.item-title {
+    font-size: 16px;
+    color: #47a5d1;
+}
+
+.item-description {
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+}
+
+.item-price {
+    background: #47a5d1;;
+    color: #fff;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+ 
+
+

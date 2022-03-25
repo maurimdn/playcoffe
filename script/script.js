@@ -1,15 +1,19 @@
 
-var swiper = new Swiper(".home-slider", {
-  spaceBetween: 30,
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 0,
   centeredSlides: true,
   autoplay: {
-    delay: 7500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  loop:true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
 
