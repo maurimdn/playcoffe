@@ -1,0 +1,110 @@
+[
+    {
+      "producto": "Café pocillo",
+      "descripción": "",
+      "precio": "$170",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Café mediano",
+      "descripción": " ",
+      "precio": "$170",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Café",
+      "descripción": "doble o con leche",
+      "precio": "$220",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Te",
+      "descripción": "",
+      "precio": "$180",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Te especial",
+      "descripción": "con leche",
+      "precio": "$150",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Leche",
+      "descripción": "(adicional)",
+      "precio": "$450",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Crema",
+      "descripción": "(adicional)",
+      "precio": "$460",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Submarino",
+      "descripción": "",
+      "precio": "$290",
+      "categoría": "cafe"
+    },
+    {
+      "producto": "Capuccino",
+      "descripción": "(cafe, crema, canela)",
+      "precio": "$330",
+      "categoría": "cafés especiales"
+    },
+    {
+      "producto": "Capuccino",
+      "descripción": "(cafe, crema, canela, chocolate)",
+      "precio": "$360",
+      "categoría": "cafés especiales"
+    },
+    {
+      "producto": "Cafe Irlandes",
+      "descripción": "(cafe, Whisky, canela)",
+      "precio": "$390",
+      "categoría": "cafés especiales"
+    },
+    {
+      "producto": "Cafe Chappre",
+      "descripción": "",
+      "precio": "$390",
+      "categoría": "cafés especiales"
+    },
+    {
+      "producto": "Americana dulce de leche",
+      "descripción": "",
+      "precio": "$390",
+      "categoría": "cafés especiales"
+    },
+    {
+      "producto": "Kids 1",
+      "descripción": "(sandwich de miga o tostado, media luna waffle) Chocolatada o Batido",
+      "precio": "$1050",
+      "categoría": "desayunosMeriendas"
+    },
+    {
+      "producto": "Kids 2",
+      "descripción": "(sandwich de miga o tostado, tarta a elección) ",
+      "precio": "$1050",
+      "categoría": "desayunosMeriendas"
+    },
+    {
+      "producto": "Patagonico",
+      "descripción": "(pan tostado integral o blanco, mermelada, queso crema o manteca, exprimido de naranja, infusion o cafe)",
+      "precio": "        $900",
+      "categoría": "desayunosMeriendas"
+    },
+    {
+      "producto": "Americano",
+      "descripción": "(infusion o caffe de estacion, huevos revueltos, jugo expremido, panceta)",
+      "precio": "$980",
+      "categoría": "desayunosMeriendas"
+    },
+    {
+      "producto": "Explosivo",
+      "descripción": "(juego de naranja, pomelo, durazno, anana, frutilla y crema)",
+      "precio": "$520",
+      "categoría": "batidos"
+    }
+  ]

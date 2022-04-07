@@ -22,8 +22,9 @@ window.addEventListener("load",()=>{
 // FETCH DATA
    const fetchData = async()=>{
      try{
-     const response = await fetch("https://sheetsu.com/apis/v1.0su/b9a36553efe8")
-     
+    //  const response = await fetch("https://sheetsu.com/apis/v1.0su/b9a36553efe8")
+     const response = await fetch("script/productos.json")
+
      const data = await response.json()
      
      console.log(data)
