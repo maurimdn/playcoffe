@@ -1,17 +1,42 @@
-let $cafeteria = document.getElementById("menuCafeteria");
-let cafeteria = "cafe";
+let $cafeteria = document.getElementById("cafeteria");
+let cafeteria = "cafetería";
 
-let $cafesEspeciales =  document.getElementById('menuCafesEspeciales');
-let cafesEspeciales = "cafés especiales";
+let $cafesEspeciales =  document.getElementById('cafésEspeciales');
+let cafesEspeciales = "cafésEspeciales";
 
 
-let $desayunoMeriendas = document.getElementById("menuDesMer");
-let desayunoMeriendas = "desayunosMeriendas";
+let $desayunosMeriendas = document.getElementById("desayunosMeriendas");
+let desayunosMeriendas = "desayunosMeriendas";
 
-let $batidos = document.getElementById("menuBatidos");
+let $batidos = document.getElementById("batidos");
 let batidos = "batidos";
 
+let $delicias = document.getElementById("delicias");
+let delicias = "delicias";
 
+let $bebidas = document.getElementById("bebidas");
+let bebidas = "bebidas";
+
+let $picadas = document.getElementById("picadas");
+let picadas = "picadas";
+
+let $salados = document.getElementById("salados");
+let salados = "salados";
+
+let $sandwiches = document.getElementById("sandwiches");
+let sandwiches = "sandwiches";
+
+let $plato = document.getElementById("plato");
+let plato = "plato";
+
+let $pizzas = document.getElementById("pizzas");
+let pizzas = "pizzas";
+
+let $guarniciones = document.getElementById("guarniciones");
+let guarniciones = "guarniciones";
+
+let $panchos = document.getElementById("panchos");
+let panchos = "panchos";
 
 // LOAD PAGINA
 window.addEventListener("load",()=>{
@@ -27,18 +52,45 @@ window.addEventListener("load",()=>{
 
      const data = await response.json()
      
-     console.log(data)
+     
      let catCafeteria = filtrarCategorias(data, cafeteria);
      pintarData(catCafeteria, $cafeteria)
+     
+     let catCafesEspeciales = filtrarCategorias(data, cafesEspeciales);
+     pintarData(catCafesEspeciales, $cafesEspeciales);
+     
+     let catDesayunosMeriendas = filtrarCategorias(data, desayunosMeriendas);
+     pintarData(catDesayunosMeriendas, $desayunosMeriendas);
 
-     let catCafeEspeciales = filtrarCategorias(data, cafesEspeciales);
-     pintarData(catCafeEspeciales, $cafesEspeciales) 
-
-     let catDesMer = filtrarCategorias(data, desayunoMeriendas);
-     pintarData(catDesMer, $desayunoMeriendas); 
-      
      let catBatidos = filtrarCategorias(data, batidos);
      pintarData(catBatidos, $batidos);
+
+     let catDelicias = filtrarCategorias(data, delicias);
+     pintarData(catDelicias, $delicias);
+     
+     let catBebidas = filtrarCategorias(data, bebidas);
+     pintarData(catBebidas, $bebidas);
+     
+     let catPicadas = filtrarCategorias(data, picadas);
+     pintarData(catPicadas, $picadas);
+
+     let catSalados = filtrarCategorias(data, salados);
+     pintarData(catSalados, $salados);
+
+     let catSandwiches = filtrarCategorias(data, sandwiches);
+     pintarData(catSandwiches, $sandwiches);
+
+     let catPlato = filtrarCategorias(data, plato);
+     pintarData(catPlato, $plato);
+
+     let catPizzas = filtrarCategorias(data, pizzas);
+     pintarData(catPizzas, $pizzas);
+
+     let catGuarniciones = filtrarCategorias(data, guarniciones);
+     pintarData(catGuarniciones, $guarniciones);
+
+     let catPanchos = filtrarCategorias(data, panchos);
+     pintarData(catPanchos, $panchos);
 
      }catch(error){console.log(error)}
    }

@@ -1,110 +1,100 @@
 [
-    {
-      "producto": "Café pocillo",
-      "descripción": "",
-      "precio": "$170",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Café mediano",
-      "descripción": " ",
-      "precio": "$170",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Café",
-      "descripción": "doble o con leche",
-      "precio": "$220",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Te",
-      "descripción": "",
-      "precio": "$180",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Te especial",
-      "descripción": "con leche",
-      "precio": "$150",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Leche",
-      "descripción": "(adicional)",
-      "precio": "$450",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Crema",
-      "descripción": "(adicional)",
-      "precio": "$460",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Submarino",
-      "descripción": "",
-      "precio": "$290",
-      "categoría": "cafe"
-    },
-    {
-      "producto": "Capuccino",
-      "descripción": "(cafe, crema, canela)",
-      "precio": "$330",
-      "categoría": "cafés especiales"
-    },
-    {
-      "producto": "Capuccino",
-      "descripción": "(cafe, crema, canela, chocolate)",
-      "precio": "$360",
-      "categoría": "cafés especiales"
-    },
-    {
-      "producto": "Cafe Irlandes",
-      "descripción": "(cafe, Whisky, canela)",
-      "precio": "$390",
-      "categoría": "cafés especiales"
-    },
-    {
-      "producto": "Cafe Chappre",
-      "descripción": "",
-      "precio": "$390",
-      "categoría": "cafés especiales"
-    },
-    {
-      "producto": "Americana dulce de leche",
-      "descripción": "",
-      "precio": "$390",
-      "categoría": "cafés especiales"
-    },
-    {
-      "producto": "Kids 1",
-      "descripción": "(sandwich de miga o tostado, media luna waffle) Chocolatada o Batido",
-      "precio": "$1050",
-      "categoría": "desayunosMeriendas"
-    },
-    {
-      "producto": "Kids 2",
-      "descripción": "(sandwich de miga o tostado, tarta a elección) ",
-      "precio": "$1050",
-      "categoría": "desayunosMeriendas"
-    },
-    {
-      "producto": "Patagonico",
-      "descripción": "(pan tostado integral o blanco, mermelada, queso crema o manteca, exprimido de naranja, infusion o cafe)",
-      "precio": "        $900",
-      "categoría": "desayunosMeriendas"
-    },
-    {
-      "producto": "Americano",
-      "descripción": "(infusion o caffe de estacion, huevos revueltos, jugo expremido, panceta)",
-      "precio": "$980",
-      "categoría": "desayunosMeriendas"
-    },
-    {
-      "producto": "Explosivo",
-      "descripción": "(juego de naranja, pomelo, durazno, anana, frutilla y crema)",
-      "precio": "$520",
-      "categoría": "batidos"
-    }
-  ]
+
+  {"producto":"Café pocillo","descripción":"","precio":"$160","categoría":"cafetería"},
+  {"producto":" Café mediano","descripción":"","precio":"$170","categoría":"cafetería"},
+  {"producto":" Café doble o café con leche","descripción":"","precio":"$220","categoría":"cafetería"},
+  {"producto":" Té","descripción":"","precio":"$150" ,"categoría":"cafetería"},
+  {"producto":"Té especiales o con leche","descripción":"","precio":"$200" ,"categoría":"cafetería"},
+  {"producto":"Submarino","descripción":"","precio":"$290" ,"categoría":"cafetería"}, 
+  {"producto":"Leche (adicional)","descripción":"","precio":"$100" ,"categoría":"cafetería"},
+  {"producto":"Crema (adicional)","descripción":"","precio":"$80" ,"categoría":"cafetería"},
+  
+{"producto":"Capuccino","descripción":"(café, crema, canela)","precio":"$330","categoría":"cafésEspeciales"},
+{"producto":"Capuccino italiano","descripción":" (café, crema, canela, chocolate)","precio":"$360","categoría":"cafésEspeciales"},
+{"producto":"Café Irlandés","descripción":"(café, Whisky, canela)","precio":"$390","categoría":"cafésEspeciales"},
+{"producto":"Café frappé","descripción":"(americana, dulce de leche, chocolate)","precio":"$390","categoría":"cafésEspeciales"},
+  
+{"producto":"Explosivo","descripción":"(jugo de naranja, pomelo, durazno, ananá, frutilla y crema)","precio":"$520","categoría":"batidos"},
+{"producto":"Milk Shake","descripción":"(helado de chocolate, dulce de leche o americana)","precio":"$520","categoría":"batidos"},
+{"producto":"Cocoliso","descripción":"(Helado de frutilla crema, lima limón, jugo de frutilla, granadina)","precio":"$520","categoría":"batidos"},
+{"producto":" Batidos Kids 1","descripción":" (frutilla o frambuesa. helado de americana, crema y rocklets)","precio":"$390","categoría":"batidos"},
+{"producto":"Batidos Kids 2","descripción":" (Helado crema americana, chocolate y Oreo)","precio":"$390","categoría":"batidos"},
+{"producto":"Batidos Kids 3","descripción":" (Helado frutillas, crema, malvaviscos)","precio":"$3901","categoría":"batidos"},
+{"producto":"Licuado Base de agua","descripción":" (Banana, Frutilla, Frambuesa, Durazno, Ananá o Multifrutas)","precio":"$350","categoría":"batidos"},
+{"producto":" Licuado Base de leche ó jugo de naranja","descripción":" (Banana, Frutilla, Frambuesa, Durazno, Ananá o Multifrutas)","precio":"$390","categoría":"batidos"},
+{"producto":"Capullo","descripción":"","precio":"$390","categoría":"batidos"},
+
+{"producto":"Gaseosas","descripción":"Linea Coca-Cola","precio":"$230","categoría":"bebidas"},
+{"producto":"Agua saborizada","descripción":"","precio":"$200","categoría":"bebidas"},
+{"producto":"Exprimido naranja","descripción":"","precio":"$330","categoría":"bebidas"},
+{"producto":"Cerveza ","descripción":"Lata","precio":"$300","categoría":"bebidas"},
+{"producto":"Cerveza","descripción":"Porron","precio":"$380","categoría":"bebidas"},
+{"producto":"Agua","descripción":"con o sin gas","precio":"$190","categoría":"bebidas"},
+
+{"producto":" Tartas del día","descripción":"","precio":"$350","categoría":"delicias"},
+{"producto":" Torta del día","descripción":"","precio":"$400","categoría":"delicias"},
+{"producto":"Waffle Espiga","descripción":"(Helado americana, crema, salsa de frambuesa tibia)","precio":"$500","categoría":"delicias"},
+{"producto":"Waffle Play especial","descripción":"(Base dulce de leche, Nutella o chocolate, Cobertura Rocklets, Oreo, etc.)","precio":"$400","categoría":"delicias"},
+{"producto":"Waffle","descripción":"(dulce de leche)","precio":"$300","categoría":"delicias"},
+{"producto":"Waffle","descripción":"(dulce de leche, crema y helado)","precio":"$390","categoría":"delicias"},
+{"producto":"Media luna de manteca","descripción":"","precio":"$100","categoría":"delicias"},
+{"producto":"Media luna J/Q","descripción":"","precio":"$290","categoría":"delicias"},
+{"producto":"Tostadas c/ manteca y dulce","descripción":"","precio":"$290","categoría":"delicias"},
+
+{"producto":"Copa Play","descripción":"(frutos rojos, crema chantilly, helado americana, dulce de leche, nueces)","precio":"$590","categoría":"CopasHeladas"},
+{"producto":"Copa Victoria","descripción":"(ensalada de frutas, helado de americana y frutilla, Crema chantilly, nueces)","precio":"$590","categoría":"CopasHeladas"},
+{"producto":"Crem banana","descripción":"(helado de chocolate, crema, frutilla, banana, dulce de leche, salsa de chocolate)","precio":"$590","categoría":"CopasHeladas"},
+{"producto":"Don pedro","descripción":"(helado americana, whisky, nueces, crema)","precio":"$590","categoría":"CopasHeladas"},
+
+
+{"producto": "Americano","descripción": "huevos revueltos, panceta, tortitas, pan integral, jamón, queso, jugo exprimido, mermelada y miel, te o cafe doble ","precio": "$","categoría":"desayunosMeriendas"},
+{"producto": "Patagónico","descripción": "pan casero, torta frita, manteca, dulce de leche, dulce casero","precio": "$","categoría":"desayunosMeriendas"},
+{"producto": "Clásico","descripción": "café doble  y 2 medialunas","precio": "$400","categoría":"desayunosMeriendas"},
+{"producto": "Kids 1","descripción": "","precio": "$500","categoría": "desayunosMeriendas"},
+{"producto": "Kids 2","descripción": "","precio": "$500","categoría": "desayunosMeriendas"},
+{"producto": "Kids 3","descripción": "","precio": "$500","categoría": "desayunosMeriendas"},
+
+{"producto":"Pancho","descripción":"","precio":"$170","categoría":"salados"},
+{"producto":"Super pancho","descripción":"","precio":"$220","categoría":"salados"},
+{"producto":" Super pancho con salsa","descripción":"","precio":"$270","categoría":"salados"},
+{"producto":"Tostado","descripción":"(Jamon y queso","precio":"$460","categoría":"salados"},
+{"producto":"Tostado","descripción":"Jamon, queso y tomate","precio":"$520","categoría":"salados"},
+{"producto":"Tostado","descripción":"Jamon crudo y queso","precio":"$580","categoría":"salados"},
+
+
+{"producto":"Picada tradicional 2 Pers.","descripción":" (salchicha, pizzeta, aceitunas verdes y negras, queso, salame milán, jamón cocido, cantimpalo, papas copetín y maní)","precio":"$2300","categoría":"picadas"},
+{"producto":"Picada tradicional 4 Pers.","descripción":" (salchicha, pizzeta, aceitunas verdes y negras, queso, salame milán, jamón cocido, cantimpalo, papas copetín y maní)","precio":"$3400","categoría":"picadas"},
+{"producto":"Tabla de fiambres 2 Pers.","descripción":"(jamón crudo y cocido, leberwurst, salamín grueso y fino, arrollado de carne, salame milán, lomito ahumado, aceitunas verdes y negras, quesos, mayonesa casera)","precio":"$2400","categoría":"picadas"},
+{"producto":"Tabla de fiambres 4 Pers.","descripción":"(jamón crudo y cocido, leberwurst, salamín grueso y fino, arrollado de carne, salame milán, lomito ahumado, aceitunas verdes y negras, quesos, mayonesa casera)","precio":"$4500","categoría":"picadas"},
+
+
+{"producto":"Hamburguesa Común","descripción":"Jamón y queso o lechuga y tomate","precio":"","categoría":"sandwiches"},
+{"producto":"Sándwich de milanesa","descripción":"","precio":"","categoría":"sandwiches"},
+{"producto":"Hamburguesa completa","descripción":"Jamón, queso, lechuga, tomate, huevo y cebolla","precio":"","categoría":"sandwiches"},
+{"producto":"Hamburguesa Kids","descripción":"","precio":"","categoría":"sandwiches"},
+
+
+
+{"producto":"Pancho","descripción":"","precio":"","categoría":"panchos"},
+{"producto":"Super Pancho","descripción":"","precio":"","categoría":"panchos"},
+{"producto":"Super Pancho con ensalada","descripción":"","precio":"","categoría":"panchos"}, 
+
+{"producto":"Milanesa c/ guarnición","descripción":"","precio":"","categoría":"plato"},
+
+
+
+
+{"producto":"Muzzarella","descripción":"","precio":"","categoría":"pizzas"},
+{"producto":"Fugazzeta","descripción":"","precio":"","categoría":"pizzas"},
+{"producto":"Napolitana","descripción":"","precio":"","categoría":"pizzas"},
+{"producto":"Ananá","descripción":"","precio":"","categoría":"pizzas"},
+
+
+
+
+{"producto":"Ensalada mixta","descripción":"","precio":"","categoría":"guarniciones"},
+{"producto":"Tomate, zanahoria y huevo","descripción":"","precio":"","categoría":"guarniciones"},
+{"producto":"Papas al horno","descripción":"","precio":"","categoría":"guarniciones"},
+{"producto":"Puré de papas","descripción":"","precio":"","categoría":"guarniciones"}
+
+]
