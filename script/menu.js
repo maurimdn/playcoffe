@@ -5,14 +5,20 @@ let $cafesEspeciales =  document.getElementById('cafésEspeciales');
 let cafesEspeciales = "cafésEspeciales";
 
 
-let $desayunosMeriendas = document.getElementById("desayunosMeriendas");
-let desayunosMeriendas = "desayunosMeriendas";
-
 let $batidos = document.getElementById("batidos");
 let batidos = "batidos";
 
+
+let $desayunosMeriendas = document.getElementById("desayunosMeriendas");
+let desayunosMeriendas = "desayunosMeriendas";
+
+
+
 let $delicias = document.getElementById("delicias");
 let delicias = "delicias";
+
+let $sandwiches = document.getElementById("sandwiches");
+let sandwiches = "sandwiches"
 
 let $bebidas = document.getElementById("bebidas");
 let bebidas = "bebidas";
@@ -20,11 +26,8 @@ let bebidas = "bebidas";
 let $picadas = document.getElementById("picadas");
 let picadas = "picadas";
 
-let $salados = document.getElementById("salados");
-let salados = "salados";
-
-let $sandwiches = document.getElementById("sandwiches");
-let sandwiches = "sandwiches";
+let $copasHeladas = document.getElementById("copasHeladas");
+let copasHeladas = "copasHeladas";
 
 let $plato = document.getElementById("plato");
 let plato = "plato";
@@ -34,10 +37,6 @@ let pizzas = "pizzas";
 
 let $guarniciones = document.getElementById("guarniciones");
 let guarniciones = "guarniciones";
-
-let $panchos = document.getElementById("panchos");
-let panchos = "panchos";
-
 // LOAD PAGINA
 window.addEventListener("load",()=>{
     fetchData() 
@@ -58,13 +57,15 @@ window.addEventListener("load",()=>{
      
      let catCafesEspeciales = filtrarCategorias(data, cafesEspeciales);
      pintarData(catCafesEspeciales, $cafesEspeciales);
+
+      let catBatidos = filtrarCategorias(data, batidos);
+     pintarData(catBatidos, $batidos);
      
      let catDesayunosMeriendas = filtrarCategorias(data, desayunosMeriendas);
      pintarData(catDesayunosMeriendas, $desayunosMeriendas);
 
-     let catBatidos = filtrarCategorias(data, batidos);
-     pintarData(catBatidos, $batidos);
-
+    
+// HDP
      let catDelicias = filtrarCategorias(data, delicias);
      pintarData(catDelicias, $delicias);
      
@@ -74,8 +75,8 @@ window.addEventListener("load",()=>{
      let catPicadas = filtrarCategorias(data, picadas);
      pintarData(catPicadas, $picadas);
 
-     let catSalados = filtrarCategorias(data, salados);
-     pintarData(catSalados, $salados);
+    //  let catSalados = filtrarCategorias(data, salados);
+    //  pintarData(catSalados, $salados);
 
      let catSandwiches = filtrarCategorias(data, sandwiches);
      pintarData(catSandwiches, $sandwiches);
@@ -89,8 +90,11 @@ window.addEventListener("load",()=>{
      let catGuarniciones = filtrarCategorias(data, guarniciones);
      pintarData(catGuarniciones, $guarniciones);
 
-     let catPanchos = filtrarCategorias(data, panchos);
-     pintarData(catPanchos, $panchos);
+    
+
+     let catCopasHeladas = filtrarCategorias(data, copasHeladas);     
+     pintarData(catCopasHeladas, $copasHeladas)
+
 
      }catch(error){console.log(error)}
    }
@@ -105,8 +109,9 @@ window.addEventListener("load",()=>{
   let referenciaId = idRef;
   let productsHTML = '';
   data.forEach(data => {
-      productsHTML +=
-     `<div class="menu-wrapper">
+      productsHTML +=    
+     `
+     <div class="menu-wrapper">
        <div class="menu-item--container">
          <div class="menu-item">
              <h4 class="item-title">${data.producto}</h4>

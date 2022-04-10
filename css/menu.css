@@ -62,7 +62,7 @@ hr {
 .menu-item--container {
     margin: 10px;
     display: flex;
-    height: 60px;
+    height: 70px;
     border-bottom: 1px dashed #fff;
     font-family: 'Merriweather', serif;
 }
