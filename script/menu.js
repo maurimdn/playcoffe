@@ -65,7 +65,7 @@ window.addEventListener("load",()=>{
      pintarData(catDesayunosMeriendas, $desayunosMeriendas);
 
     
-// HDP
+
      let catDelicias = filtrarCategorias(data, delicias);
      pintarData(catDelicias, $delicias);
      
@@ -75,8 +75,6 @@ window.addEventListener("load",()=>{
      let catPicadas = filtrarCategorias(data, picadas);
      pintarData(catPicadas, $picadas);
 
-    //  let catSalados = filtrarCategorias(data, salados);
-    //  pintarData(catSalados, $salados);
 
      let catSandwiches = filtrarCategorias(data, sandwiches);
      pintarData(catSandwiches, $sandwiches);
